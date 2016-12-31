@@ -1,0 +1,7 @@
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\bin\Debug\netFramework.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\bin\Debug\netFramework.pdb
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\bin\Debug\domain.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\bin\Debug\domain.pdb
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\obj\Debug\netFramework.csprojResolveAssemblyReference.cache
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\obj\Debug\netFramework.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\netFramework\obj\Debug\netFramework.pdb

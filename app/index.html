@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Minhas contas</title>
+
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav class="navbar navbar-default">
+
+        <div class="navbar-header">
+          <button
+            type="button"
+            name="button"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            class="navbar-toggle collapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Minhas contas</a>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="text-center">Minhas contas</h1>
+
+    </header>
+
+    <section class="container">
+      <div class="col-sm-12 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4">
+
+        <div class="text-center">
+          <a href="#" data-toggle="collapse" data-target="#new-bill-form" class="btn btn-default">
+            <span class="glyphicon glyphicon-plus-sign"></span>
+            Nova conta
+          </a>
+        </div>
+
+        <div id="new-bill-form" class="collapse">
+          <h3 class="text-center">Adicionar nova conta</h2>
+          <div class="form-group">
+            <input type="text" id="bill-title" class="form-control" placeholder="Nome">
+          </div>
+          <div class="form-group">
+            <input type="text" id="bill-amount" class="form-control" placeholder="Valor">
+          </div>
+          <div class="form-group">
+            <input type="text" id="bill-expiration-date" class="form-control" placeholder="Vencimento">
+          </div>
+          <div class="form-group">
+            <input type="text" id="bill-reference" class="form-control" placeholder="Referência">
+          </div>
+          <div class="form-group">
+            <input type="text" id="bill-obs" class="form-control" placeholder="Observações">
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="bill-public"> Pública
+          </div>
+
+          <div class="text-center">
+            <a href="#" id="add-bill" onclick="billsController.addBill()" class="btn btn-default">Salvar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div id="bills" class="row"></div>
+    </section>
+
+    <script src="js/jquery/jquery-3.1.1.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app/entities/Bill.js"></script>
+    <script src="js/app/helpers/Http.js"></script>
+    <script src="js/app/providers/BillsProvider.js"></script>
+    <script src="js/app/views/BillsView.js"></script>
+    <script src="js/app/models/BillsModel.js"></script>
+    <script src="js/app/controllers/BillsController.js"></script>
+    <script src="js/app/app.js"></script>
+  </body>
+</html>

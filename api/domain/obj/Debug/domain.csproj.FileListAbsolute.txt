@@ -1,0 +1,5 @@
+C:\Users\Kaio\Documents\Projects\MyBills\api\domain\bin\Debug\domain.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\domain\bin\Debug\domain.pdb
+C:\Users\Kaio\Documents\Projects\MyBills\api\domain\obj\Debug\domain.csprojResolveAssemblyReference.cache
+C:\Users\Kaio\Documents\Projects\MyBills\api\domain\obj\Debug\domain.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\domain\obj\Debug\domain.pdb

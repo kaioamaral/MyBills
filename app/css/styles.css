@@ -1,0 +1,37 @@
+.bill-card {
+  border-radius: 8%;
+  border-color: #ccc;
+  border: 2px solid #ccc;
+  padding: 5%;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.bill-status {
+  border: 2px solid #ccc;
+  padding: 3%;
+  border-radius: 8%;
+}
+
+.bill-paid {
+  border-color: lightgreen;
+  color: lightgreen;
+}
+
+.bill-pending {
+  color: orange;
+  border-color: orange;
+}
+
+.bill-expired {
+  color: red;
+  border-color: red;
+}
+
+.bill-title {
+  font-size: 26px;
+}
+
+.new-bill-form {
+  display: none;
+}

@@ -1,0 +1,11 @@
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\dataAccess.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\dataAccess.pdb
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\Dapper.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\domain.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\netFramework.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\domain.pdb
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\netFramework.pdb
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\bin\Debug\Dapper.xml
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\obj\Debug\dataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\obj\Debug\dataAccess.dll
+C:\Users\Kaio\Documents\Projects\MyBills\api\dataAccess\obj\Debug\dataAccess.pdb
