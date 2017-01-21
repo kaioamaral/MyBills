@@ -28,7 +28,7 @@ class BillsController {
 
     console.log(bill);
 
-    xthis._billsProvider.create(bill)
+    this._billsProvider.create(bill)
     .then(id => this._billsProvider.get(id))
     .then(bill => {
         this._billsModel.add(bill);
